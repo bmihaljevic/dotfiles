@@ -185,3 +185,12 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+# Bojan's added: 
+
+[user]
+	email = boki.mihaljevic@gmail.com
+	name = bmihaljevic
+[core]
+	autocrlf = input
+	filemode = false
