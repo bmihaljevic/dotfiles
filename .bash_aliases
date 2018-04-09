@@ -149,3 +149,18 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Bojan added: 
+
+alias lsa='ls -lacth'
+alias gitpur='git push -u origin master'
+alias jabref='java -jar /opt/JabRef-3.8.2.jar'
+alias xo='xdg-open'
+alias gits='git status' 
+alias gitm='git commit -m'
+alias  gupdate='git add -u; gitm updates; gitpur'
+alias gsync='grive -l grive-log --log-http grive-log-'
+alias dbbp='git diff bbp-interneurons.md'
+source /etc/environment
+shopt -s histappend
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
