@@ -51,3 +51,4 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 source /etc/environment
 shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND" 
+source .bash_aliases
