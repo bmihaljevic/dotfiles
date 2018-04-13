@@ -24,6 +24,9 @@ else
 	echo "";
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		doIt;
+        echo "Also copy not-home files..."
+        ./not-home.sh
+        echo "Done."
 	fi;
 fi;
 unset doIt;
