@@ -1,5 +1,6 @@
 # TODO
 - ADD some solutions from my cookbook/linux as aliases? So I don't have to search for them nor copy them 
+- Add symlinks
 
 # Mathias’s dotfiles
 
