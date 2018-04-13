@@ -12,12 +12,13 @@ alias -- -="cd -"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dn="cd ~/notes"
-alias dp="cd ~/organize"
+alias dm="cd ~/organize" # m stands for manage
 alias dg="cd ~/gd2"
 
 alias dt="cd ~/code-tools"
 alias dg="cd ~/code-gaba"
 alias dc="cd ~/code"
+alias dp="cd ~/code-papers"
 
 
 # Detect which `ls` flavor is in use
