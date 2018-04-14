@@ -13,7 +13,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dn="cd ~/notes"
 alias dm="cd ~/organize" # m stands for manage
-alias dg="cd ~/gd2"
+alias dv="cd ~/gd2" # v for driVe
 
 alias dt="cd ~/code-tools"
 alias dg="cd ~/code-gaba"
