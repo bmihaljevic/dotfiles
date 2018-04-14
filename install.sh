@@ -110,3 +110,4 @@ sudo apt install vim
 sudo apt install keepassx 
 sudo apt install pandoc
 sudo apt install redshift
+sudo apt install silversearcher-ag
