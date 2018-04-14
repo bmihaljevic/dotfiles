@@ -109,3 +109,4 @@ sudo apt install xclip
 sudo apt install vim
 sudo apt install keepassx 
 sudo apt install pandoc
+sudo apt install redshift
