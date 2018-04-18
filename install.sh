@@ -111,3 +111,4 @@ sudo apt install keepassx
 sudo apt install pandoc
 sudo apt install redshift
 sudo apt install vim-gtk
+sudo apt-get install git-flow
