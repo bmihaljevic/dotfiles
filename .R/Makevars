@@ -1,8 +1,8 @@
 #CFLAGS +=              -O3 -Wall -pipe -std=gnu99 
 #CXXFLAGS +=            -O3 -Wall -pipe -Wno-unused  
-#CPPFLAGS +=            -O3 -Wall -pipe -Wno-unused 
-#CXX=clang++
-#CXX11 = clang++ 
+#CPPFLAGS +=            -O3 -Wall -pipe -Wno-unused #
+
+#  I have removed the -g that Makeconf uses
 
 CXX = g++ 
 CXXCPP = $(CXX) -E
@@ -20,3 +20,18 @@ CXX14 = g++
 CXX14FLAGS = -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 
 CXX14PICFLAGS = -fpic
 CXX14STD = -std=gnu++14 
+
+# Use clang with cache
+# CC=ccache clang -Qunused-arguments
+# CXX=ccache clang++ -Qunused-arguments
+# CXX11=ccache clang++ -Qunused-arguments 
+# CCACHE_CPP2=yes
+
+
+# Use gcc with cache 
+# <https://stackoverflow.com/questions/13929514/how-to-enable-ccache-on-linux> 
+CC=ccache  gcc -std=gnu99
+CXX=ccache g++
+CXX11=ccache g++
+CCACHE_CPP2=yes
+
