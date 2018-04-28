@@ -1,26 +1,22 @@
-#CXXFLAGS= -g -O0 -Wall -fno-inline-functions
-#CXXFLAGS= -g -O3 -Wall -fno-inline-functions
+#CFLAGS +=              -O3 -Wall -pipe -std=gnu99 
+#CXXFLAGS +=            -O3 -Wall -pipe -Wno-unused  
+#CPPFLAGS +=            -O3 -Wall -pipe -Wno-unused 
 #CXX=clang++
-#CFLAGS +=              -O3 -Wall -pipe -pedantic -std=gnu99
-#CXXFLAGS +=            -O3 -Wall -pipe -Wno-unused -pedantic
-#CPPFLAGS +=            -O3 -Wall -pipe -Wno-unused -pedantic
+#CXX11 = clang++ 
 
-#PKG_CFLAGS +=   -O3 -Wall -pipe -Wno-unused -pedantic
-#PKG_CXXFLAGS +=	-O3 -Wall -pipe -Wno-unused -pedantic
-#PKG_CPPFLAGS +=	-O3 -Wall -pipe -Wno-unused -pedantic 
-
-#CFLAGS +=              -O3 -Wall -pipe -std=gnu99 -pedantic
-#CXXFLAGS +=            -O3 -Wall -pipe -Wno-unused  -pedantic
-#CPPFLAGS +=            -O3 -Wall -pipe -Wno-unused -pedantic
-
-CFLAGS +=              -O3 -Wall -pipe -std=gnu99 
-CXXFLAGS +=            -O3 -Wall -pipe -Wno-unused  
-CPPFLAGS +=            -O3 -Wall -pipe -Wno-unused 
-
-#PKG_CFLAGS +=   -O3 -Wall -pipe -Wno-unused  -pedantic
-#PKG_CXXFLAGS +=	-O3 -Wall -pipe -Wno-unused -pedantic
-#PKG_CPPFLAGS +=	-O3 -Wall -pipe -Wno-unused  -pedantic
-
-PKG_CFLAGS +=   -O3 -Wall -pipe -Wno-unused  
-PKG_CXXFLAGS +=	-O3 -Wall -pipe -Wno-unused 
-PKG_CPPFLAGS +=	-O3 -Wall -pipe -Wno-unused  
+CXX = g++ 
+CXXCPP = $(CXX) -E
+CXXFLAGS = -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 $(LTO)
+CXXPICFLAGS = -fpic
+CXX98 = g++
+CXX98FLAGS = -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 
+CXX98PICFLAGS = -fpic
+CXX98STD = 
+CXX11 = g++
+CXX11FLAGS = -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 
+CXX11PICFLAGS = -fpic
+CXX11STD = -std=gnu++11
+CXX14 = g++
+CXX14FLAGS = -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 
+CXX14PICFLAGS = -fpic
+CXX14STD = -std=gnu++14 
