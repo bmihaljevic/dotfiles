@@ -170,3 +170,5 @@ alias dbbp='git diff bbp-interneurons.md'
 source /etc/environment
 shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+# This is for BNC paper
+alias vimp="vim anbeclass.Rmd"
