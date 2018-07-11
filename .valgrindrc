@@ -1,0 +1,3 @@
+# options for R from <https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Using-valgrind>
+--leak-check=full
+--track-origins=yes
