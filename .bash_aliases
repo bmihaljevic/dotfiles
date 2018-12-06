@@ -165,6 +165,7 @@ alias xo='xdg-open'
 alias gits='git status'
 alias gitm='git commit -m'
 alias gupdate='git add -u; gitm updates; gitpur'
+alias gdmod='git -c core.fileMode=false diff'
 alias gsync='grive -l grive-log --log-http grive-log-'
 alias dbbp='git diff bbp-interneurons.md'
 source /etc/environment
