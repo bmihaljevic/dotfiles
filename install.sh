@@ -97,19 +97,19 @@ brew install zopfli
 brew cleanup
 
 # Bojan added
-sudo apt install latexmk
-sudo apt install texlive-full 
-sudo apt install git
-sudo apt-get install r-base r-base-dev
-sudo apt install libssl-dev
-sudo apt install libssh2-1-dev
-sudo apt install libcurl4-openssl-dev
-sudo apt install libxml2-dev
-sudo apt install xclip 
-sudo apt install vim
-sudo apt install keepassx 
-sudo apt install pandoc
-sudo apt install redshift
-sudo apt install silversearcher-ag
-sudo apt install vim-gtk
-sudo apt-get install git-flow
+sudo apt install -y latexmk
+sudo apt install -y texlive-full 
+sudo apt install -y git
+sudo apt-get install -y r-base r-base-dev
+sudo apt install -y libssl-dev
+sudo apt install -y libssh2-1-dev
+sudo apt install -y libcurl4-openssl-dev
+sudo apt install -y libxml2-dev
+sudo apt install -y xclip 
+sudo apt install -y vim
+sudo apt install -y keepassx 
+sudo apt install -y pandoc
+sudo apt install -y redshift
+sudo apt install -y silversearcher-ag
+sudo apt install -y vim-gtk
+sudo apt-get install -y git-flow
